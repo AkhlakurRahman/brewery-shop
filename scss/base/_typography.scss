@@ -1,10 +1,11 @@
-@import url("https://use.typekit.net/ixk5mhv.css");
+@import url('https://use.typekit.net/ixk5mhv.css');
+
 body {
-  font-family: "edita", serif;
+  font-family: $ff-body;
   font-size: 1.3125rem;
   line-height: 1.5;
-  font-weight: 400;
-  color: #89807a;
+  font-weight: $fw-normal;
+  color: $clr-brown-dark;
 }
 
 h1,
@@ -18,21 +19,20 @@ figure {
 
 .section__title,
 .section__subtitle {
-  font-family: "program", sans-serif;
+  font-family: $ff-title;
   line-height: 1;
 }
 
 .section__title {
   font-size: 4.75rem;
-  color: #414a4d;
+  color: $clr-blue-dark;
 }
 
 .section__subtitle {
   font-size: 1.69rem;
-  color: #a3b9bf;
+  color: $clr-blue-light;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 8px;
 }
-/*# sourceMappingURL=main.css.map */
